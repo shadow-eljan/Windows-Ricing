@@ -6,7 +6,11 @@
 
 ## 📸 Screenshots
 
-> _Add your screenshots here after uploading to the repo_
+### Multiple Monitor
+<img src="Screenshots/multipleMonitors.png" width="700">
+
+### Waybar
+<img src="Screenshots/waybar.png" width="700">
 
 ---
 
@@ -27,7 +31,7 @@
 dotfiles/
 ├── komorebi/
 │   ├── komorebi.json          # Tiling WM config
-│   └── komorebi.bar.json      # komorebi bar config (optional)
+│   └── komorebi.bar.json      # komorebi bar config (i'm using YASB waybar so i dont have komorebi bar)
 ├── whkd/
 │   └── whkdrc                 # Hotkey bindings
 ├── yasb/
@@ -35,6 +39,7 @@ dotfiles/
 │   └── styles.css             # Bar styling
 ├── powertoys/
 │   └── settings.json          # PowerToys settings export
+├── Screenshots                # Screenshots 
 └── README.md
 ```
 
@@ -65,7 +70,7 @@ Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'Long
 ### 2 — Clone this repo
 
 ```powershell
-git clone 
+git clone https://github.com/shadow-eljan/Windows-Ricing.git
 cd dotfiles
 ```
 
