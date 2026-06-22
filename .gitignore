@@ -1,0 +1,25 @@
+# Logs
+*.log
+yasb.log
+komorebi.log
+
+# PowerToys sensitive files
+powertoys/last_version_run.json
+powertoys/settings-telemetry.json
+powertoys/UpdateState.json
+powertoys/oobe_settings.json
+powertoys/RunnerLogs/
+powertoys/etw/
+powertoys/CmdNotFound/
+
+# Komorebi app-specific config (auto-downloaded, no need to commit)
+applications.json
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Misc
+.DS_Store
+*.bak
